@@ -1,0 +1,58 @@
+# Dependências
+node_modules/
+package-lock.json
+
+# Ambientes
+.env
+.env.local
+.env.*.local
+
+# Relatórios e screenshots
+reports/
+screenshots/
+*.png
+*.jpg
+*.jpeg
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema Operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Build e Cache
+dist/
+build/
+.cache/
+.temp/
+.tmp/
+
+# Testes
+coverage/
+.nyc_output/
+
+# Arquivos temporários de teste
+test-*.js
+!test-imports.js
+
+# SVN
+.svn/

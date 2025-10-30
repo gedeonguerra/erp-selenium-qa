@@ -1,0 +1,37 @@
+# Dependências Node.js
+node_modules/
+package-lock.json
+
+# Arquivos de ambiente (nunca versionar senhas!)
+.env
+.env.local
+.env.*.local
+
+# Relatórios e evidências (gerados automaticamente)
+reports/
+screenshots/
+*.png
+*.jpg
+*.jpeg
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Build
+dist/
+build/
+.cache/
+
+# Cobertura de testes
+coverage/
+.nyc_output/
