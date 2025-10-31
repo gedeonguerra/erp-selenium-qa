@@ -48,9 +48,13 @@ Este projeto demonstra **expertise completa em automação de testes para sistem
 - **Mochawesome** - Relatórios HTML
 - **ChromeDriver 141** - Browser automation
 
-### Controle de Versão
-- **Git** - Versionamento
-- **SVN** - Compatibilidade (documentado)
+## 🔧 Controle de Versão
+
+- **Git** (principal) - Branches, merge strategies, Git flow
+- **SVN** (experiência prática) - Checkout, commit, branches, merge
+- **GitHub** - Repositórios, Pull Requests, Actions
+
+📄 **[Ver comparação completa Git vs SVN →](docs/SVN-GIT.md)**
 
 ---
 
