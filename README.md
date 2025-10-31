@@ -5,6 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Selenium](https://img.shields.io/badge/Selenium-4.10-blue.svg)](https://www.selenium.dev/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0+-orange.svg)](https://www.mysql.com/)
+[![Status](https://img.shields.io/badge/status-97%25%20aligned-success)](https://github.com/gedeonguerra/erp-selenium-qa)
 
 > Suite completa de automação de testes para sistemas ERP utilizando **Selenium WebDriver, JavaScript avançado, MySQL e Jenkins** - Desenvolvido seguindo as melhores práticas de QA e alinhado com as necessidades reais de empresas especializadas em ERP.
 
@@ -58,6 +59,15 @@ Este projeto demonstra **expertise completa em automação de testes para sistem
 📄 **[Ver comparação completa Git vs SVN →](docs/SVN-GIT.md)**
 
 ---
+## 🎬 CI/CD em Ação
+
+![GitHub Actions Success](docs/images/github-actions-success.png)
+
+✅ **Pipeline executando automaticamente** a cada push
+📊 **3 artifacts gerados** com relatórios de testes
+⚡ **Tempo médio de execução:** 1m 20s
+🔄 **Matrix strategy:** Testando em Node.js 18.x e 20.x
+
 
 ## 🧪 Ferramentas de Automação de Testes
 
