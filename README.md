@@ -530,6 +530,22 @@ Sou **Gedeon Guerra**, QA Engineer especializado em automação de testes para s
 - 🔍 Validações de integridade de dados
 - 🐛 Identificação e documentação de bugs
 
+## 💼 Conhecimento Profundo em Módulos ERP
+
+Este projeto demonstra conhecimento sólido nos principais módulos de sistemas ERP:
+
+- 💰 **Financeiro** - Contas a Pagar/Receber, juros, multas, conciliação
+- 📦 **Faturamento** - NF-e, impostos (ICMS, IPI, PIS/COFINS), SEFAZ
+- 📊 **Suprimentos** - Estoque (PEPS/UEPS), compras, inventário, curva ABC
+- 🔗 **Integrações** - Fluxos entre módulos, lançamentos contábeis
+
+📄 **[Ver documentação completa de conhecimento em ERP →](docs/CONHECIMENTO-ERP.md)**
+
+### Exemplos de Bugs Reais Identificados
+- 🐛 BUG-001: Cálculo incorreto de ICMS ST (rejeição SEFAZ)
+- 🐛 BUG-002: Estoque negativo permitido (vendas sem produto)
+- 🐛 BUG-003: Duplicação de lançamento contábil (balancete descasado)
+
 ---
 
 ## 📞 Entre em Contato
