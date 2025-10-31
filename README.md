@@ -58,6 +58,39 @@ Este projeto demonstra **expertise completa em automação de testes para sistem
 
 ---
 
+## 🧪 Ferramentas de Automação de Testes
+
+### Selenium WebDriver (Principal)
+Ferramenta principal deste projeto, oferecendo:
+- ✅ Suporte multi-browser (Chrome, Firefox, Edge)
+- ✅ Integração nativa com JavaScript/Node.js
+- ✅ Open-source e comunidade ativa
+- ✅ Page Object Model fácil de implementar
+
+### TestComplete (Experiência)
+Experiência com TestComplete para:
+- **Testes Desktop:** Aplicações Windows (ex: ERP cliente-servidor)
+- **Gravação e Reprodução:** Criação rápida de casos de teste
+- **Checkpoints:** Validações de propriedades e objetos
+- **Scripts:** VBScript, JavaScript, Python
+
+**Comparação Selenium vs TestComplete:**
+
+| Aspecto | Selenium | TestComplete |
+|---------|----------|--------------|
+| **Tipo** | Open-source | Comercial (SmartBear) |
+| **Aplicações** | Web | Web + Desktop + Mobile |
+| **Linguagens** | Java, Python, JS, C# | VBScript, JS, Python |
+| **Curva de aprendizado** | Média | Baixa (GUI intuitiva) |
+| **Custo** | Gratuito | Licença paga |
+| **Uso** | Projetos web modernos | ERP legado (desktop) |
+
+**Quando usar cada um:**
+- **Selenium:** ERP web-based, projetos novos, orçamento limitado
+- **TestComplete:** ERP desktop (Delphi, .NET), testes visuais, necessidade de gravação rápida
+
+Este projeto foca em Selenium por ser a ferramenta mais adequada para sistemas ERP modernos (web-based), mas posso adaptar os conceitos para TestComplete conforme necessidade da empresa.
+
 ## 📂 Estrutura do Projeto
 
 ```
