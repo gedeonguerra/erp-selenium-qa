@@ -1,7 +1,8 @@
 # 🏢 Sistema ERP - Automação de Testes QA
 
+[![CI/CD](https://github.com/gedeonguerra/erp-selenium-qa/actions/workflows/tests.yml/badge.svg)](https://github.com/gedeonguerra/erp-selenium-qa/actions/workflows/tests.yml)
+[![Node.js](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)](https://nodejs.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
 [![Selenium](https://img.shields.io/badge/Selenium-4.10-blue.svg)](https://www.selenium.dev/)
 [![MySQL](https://img.shields.io/badge/MySQL-8.0+-orange.svg)](https://www.mysql.com/)
 
