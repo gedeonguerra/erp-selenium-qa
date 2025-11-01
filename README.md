@@ -656,6 +656,13 @@ Este projeto demonstra conhecimento sólido nos principais módulos de sistemas 
 
 ---
 
+## 📚 Documentação Complementar
+
+- 📊 [**Métricas e Resultados**](docs/METRICAS.md) - KPIs, ROI, bugs detectados, performance
+- 🎯 [**Estratégia de QA**](docs/ESTRATEGIA-QA.md) - Processos, critérios de aceite, gestão de defeitos
+
+---
+
 ## 📞 Entre em Contato
 
 Estou disponível para oportunidades e discussões sobre QA e automação:
