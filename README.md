@@ -68,39 +68,99 @@ Este projeto demonstra **expertise completa em automação de testes para sistem
 ⚡ **Tempo médio de execução:** 1m 20s
 🔄 **Matrix strategy:** Testando em Node.js 18.x e 20.x
 
-
 ## 🧪 Ferramentas de Automação de Testes
 
-### Selenium WebDriver (Principal)
+### Selenium WebDriver (Principal) ⭐⭐⭐⭐⭐
 Ferramenta principal deste projeto, oferecendo:
-- ✅ Suporte multi-browser (Chrome, Firefox, Edge)
+- ✅ Suporte multi-browser (Chrome, Firefox, Edge, Safari)
 - ✅ Integração nativa com JavaScript/Node.js
 - ✅ Open-source e comunidade ativa
 - ✅ Page Object Model fácil de implementar
+- ✅ Execução em headless para CI/CD
+- ✅ Compatível com todos os sistemas operacionais
 
-### TestComplete (Experiência)
-Experiência com TestComplete para:
+---
+
+### TestComplete (Experiência) ⭐⭐⭐⭐
+Experiência prática com TestComplete para:
 - **Testes Desktop:** Aplicações Windows (ex: ERP cliente-servidor)
 - **Gravação e Reprodução:** Criação rápida de casos de teste
+- **Object Recognition:** Identificação automática de elementos UI
 - **Checkpoints:** Validações de propriedades e objetos
 - **Scripts:** VBScript, JavaScript, Python
+- **Integração:** Jenkins, Azure DevOps
 
-**Comparação Selenium vs TestComplete:**
+#### Comparação Selenium vs TestComplete
 
 | Aspecto | Selenium | TestComplete |
 |---------|----------|--------------|
 | **Tipo** | Open-source | Comercial (SmartBear) |
 | **Aplicações** | Web | Web + Desktop + Mobile |
 | **Linguagens** | Java, Python, JS, C# | VBScript, JS, Python |
-| **Curva de aprendizado** | Média | Baixa (GUI intuitiva) |
-| **Custo** | Gratuito | Licença paga |
-| **Uso** | Projetos web modernos | ERP legado (desktop) |
+| **Curva de Aprendizado** | Média | Baixa (GUI intuitiva) |
+| **Custo** | Gratuito | Licença paga (~$6k/ano) |
+| **Manutenção** | Manual (code-based) | Assistida (object spy) |
+| **CI/CD** | Excelente | Bom (requer agentes) |
+| **Uso Ideal** | ERP web modernos | ERP desktop legado |
 
-**Quando usar cada um:**
-- **Selenium:** ERP web-based, projetos novos, orçamento limitado
-- **TestComplete:** ERP desktop (Delphi, .NET), testes visuais, necessidade de gravação rápida
+#### Quando Usar Cada Ferramenta?
 
-Este projeto foca em Selenium por ser a ferramenta mais adequada para sistemas ERP modernos (web-based), mas posso adaptar os conceitos para TestComplete conforme necessidade da empresa.
+**✅ Selenium (Este Projeto):**
+- ERPs web-based (SaaS, cloud)
+- Projetos com orçamento limitado
+- Times com forte cultura DevOps
+- Necessidade de integração contínua
+- Múltiplos browsers/ambientes
+
+**✅ TestComplete:**
+- ERPs desktop (Delphi, .NET, Java Swing)
+- Aplicações legadas (20+ anos)
+- Testes visuais/UI complexos
+- Equipes sem experiência em código
+- Necessidade de gravação rápida
+
+#### Experiência Prática com TestComplete
+
+**Projetos Realizados:**
+- Automação de telas desktop em ERP legado (Delphi)
+- Integração com banco de dados para validações
+- Criação de data-driven tests com planilhas Excel
+- Configuração de smoke tests agendados
+
+**Exemplo de Script TestComplete (JavaScript):**
+```javascript
+function Test_Login_ERP() {
+  // Object Recognition
+  var loginWindow = Sys.Process("ERP").Window("TLoginForm");
+  var usernameField = loginWindow.FindChild("Name", "edtUsuario");
+  var passwordField = loginWindow.FindChild("Name", "edtSenha");
+  var btnLogin = loginWindow.FindChild("Caption", "Entrar");
+  
+  // Ações
+  usernameField.SetText("admin");
+  passwordField.SetText("senha123");
+  btnLogin.Click();
+  
+  // Checkpoint
+  if (Sys.Process("ERP").Window("TMainForm").Exists) {
+    Log.Message("Login realizado com sucesso");
+  } else {
+    Log.Error("Falha no login");
+  }
+}
+```
+
+#### Por Que Este Projeto Usa Selenium?
+
+1. **ERP Moderno:** Foco em sistemas web-based (ERPNext, SAP Cloud)
+2. **Open Source:** Sem custos de licenciamento
+3. **Flexibilidade:** Total controle sobre o código
+4. **CI/CD:** Integração perfeita com GitHub Actions
+5. **Comunidade:** Vasta documentação e suporte
+
+**No entanto, posso facilmente adaptar os conceitos deste projeto para TestComplete se necessário!**
+
+---
 
 ## 📂 Estrutura do Projeto
 
