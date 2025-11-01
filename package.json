@@ -6,6 +6,7 @@
     "test": "node tests/producao/suite-producao.js",
     "test:producao": "node tests/producao/suite-producao.js",
     "test:novos": "node tests/novos/suite-novos.js",
+    "test:regras-negocio": "mocha tests/novos/casos-teste-regras-negocio.test.js --reporter spec",
     "test:mocha": "mocha tests/producao/*.test.js --timeout 60000 --exit"
   },
   "keywords": [
