@@ -1,10 +1,13 @@
--- ============================================
--- QUERIES AVANÇADAS MYSQL - SISTEMA ERP
--- Autor: Gedeon Guerra de Oliveira Neto
--- Data: Outubro 2025
--- Demonstração de conhecimento MySQL avançado
--- ============================================
 
+## Validações de Banco de Dados ##
+
+A pasta `database/` contém exemplos de queries SQL que seriam usadas para validar integridade de dados em um ERP real:
+
+- Queries de auditoria (verificar saldos balanceados)
+- Validações de estoque (itens com quantidade negativa)
+- Verificações de integridade referencial 
+
+**Nota**: Estas queries foram escritas baseadas no schema do ERPNext (ERP open-source) como referência. No projeto atual, o MySQL não está sendo usado ativamente porque `the-internet.herokuapp.com` não tem banco acessível. Em um projeto real, essas validações rodariam após cada teste de integração.
 -- ============================================
 -- 1. MÓDULO FINANCEIRO
 -- ============================================

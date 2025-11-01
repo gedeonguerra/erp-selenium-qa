@@ -7,7 +7,11 @@
 [![MySQL](https://img.shields.io/badge/MySQL-8.0+-orange.svg)](https://www.mysql.com/)
 [![Status](https://img.shields.io/badge/status-97%25%20aligned-success)](https://github.com/gedeonguerra/erp-selenium-qa)
 
-> Suite completa de automação de testes para sistemas ERP utilizando **Selenium WebDriver, JavaScript avançado, MySQL e Jenkins** - Desenvolvido seguindo as melhores práticas de QA e alinhado com as necessidades reais de empresas especializadas em ERP.
+# ERP Test Automation Suite
+
+Projeto de automação de testes desenvolvido para demonstrar habilidades em QA para sistemas ERP.
+
+Construí este projeto para aplicar em uma vaga de QA em empresa de ERP, implementando as 3 atividades principais descritas na vaga: validação de casos de teste, desenvolvimento de novos casos, e identificação de falhas.
 
 ---
 
@@ -26,13 +30,15 @@ QA Engineer | Test Automation Specialist
 
 Este projeto demonstra **expertise completa em automação de testes para sistemas ERP**, cobrindo as 3 atividades principais de um QA em empresas especializadas:
 
-### 🎯 Atividades Cobertas
+## O que este projeto faz
 
-| # | Atividade | Implementação |
-|---|-----------|---------------|
-| **1** | ✅ **Validar casos de testes atuais em versões de produção** | Suite `tests/producao/` com testes de regressão validando módulos críticos (Login, Financeiro, Faturamento) |
-| **2** | ✅ **Desenvolver novos casos de teste em paralelo com desenvolvimento** | Suite `tests/novos/` com casos criados junto com features, incluindo validações de queries MySQL |
-| **3** | ✅ **Identificar falhas e reportar bugs estruturadamente** | Sistema de detecção automática com screenshots, relatórios JSON e análise de causa raiz |
+Este é um framework de automação que simula o trabalho de QA em um ERP. Ele cobre:
+
+1. **Testes de regressão** - Validar funcionalidades existentes (pasta `tests/producao/`)
+2. **Desenvolvimento de novos casos** - Criar testes para novas features (pasta `tests/novos/`)
+3. **Detecção de bugs** - Sistema que captura screenshots e gera relatórios quando algo falha
+
+Usei o site `the-internet.herokuapp.com` como aplicação de teste porque é estável e permite demonstrar os padrões sem precisar de um ERP real rodando.
 
 ---
 
@@ -565,8 +571,8 @@ O projeto é **facilmente adaptável** para qualquer sistema ERP:
 ## 🎯 Diferenciais do Projeto
 
 ### Técnicos
-- ✅ **Page Object Model profissional** - Arquitetura escalável e manutenível
-- ✅ **Queries MySQL avançadas** - Procedures, triggers, views, CTEs
+- ✅ **Page Object Model** - Arquitetura escalável e manutenível
+- ✅ **Queries MySQL** - Procedures, triggers, views, CTEs
 - ✅ **Pipeline Jenkins completo** - CI/CD totalmente configurado
 - ✅ **Relatórios JSON estruturados** - Fácil integração com ferramentas
 - ✅ **Screenshots automáticos** - Evidências visuais em falhas
