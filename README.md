@@ -67,7 +67,6 @@ Usei o site `the-internet.herokuapp.com` como aplicação de teste porque é est
 ---
 ## 🎬 CI/CD em Ação
 
-![GitHub Actions Success](docs/images/github-actions-success.png)
 
 ✅ **Pipeline executando automaticamente** a cada push
 📊 **3 artifacts gerados** com relatórios de testes
